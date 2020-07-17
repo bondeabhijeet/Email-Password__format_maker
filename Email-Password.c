@@ -32,7 +32,7 @@ void main (void)
 
         i=0;
         fscanf(fp, " %[^\n]", str);
-        printf("%s\n", str);
+
 
 
         while(str[i] != ' ' )
@@ -48,7 +48,7 @@ void main (void)
         count++;
 
 
-    }while(count < 1000);
+    }while(count < 2000);
 
     fclose(fp);
     fclose(fp1);
